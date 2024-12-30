@@ -7,10 +7,16 @@ body {
     background-color: #f0f8ff;
 }
 
+
+
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
 }
 
 header {
@@ -73,7 +79,7 @@ nav a.active {
 }
 
 .content {
-    height: 800px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +119,7 @@ nav a.active {
     height: 50px;
 }
 
-/* Listas */
+
 ul, ol {
     padding-left: 30px;
     margin: 25px 0;
@@ -125,7 +131,7 @@ ul li, ol li {
     color: #4682b4;
 }
 
-/* Botones */
+
 button {
     background-color: #87cefa;
     color: white;
