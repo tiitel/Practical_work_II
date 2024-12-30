@@ -96,7 +96,16 @@ nav a.active {
     padding: 20px;
 }
 
-
+.ccontent {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #87cefa;
+    padding: 20px;
+}
 .menu {
     background-color: #4682b4;
     color: #ffffff;
